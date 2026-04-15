@@ -127,7 +127,7 @@ nav {
 
 /* ── Hero ── */
 .hero {
-    background: var(--dark);
+    background: linear-gradient(rgba(0, 0, 0, 0.62), rgba(0, 0, 0, 0.62)), url('images/homepage.jpg') center/cover no-repeat;
     padding: 96px 24px;
     text-align: center;
 }
@@ -531,9 +531,9 @@ nav {
     display: inline-block;
     font-size: 10px;
     font-weight: 600;
-    background: var(--orange-tint);
-    color: var(--orange-dark);
-    border: 1px solid var(--orange);
+    background: var(--off-white);
+    color: var(--mid-gray);
+    border: 1px solid var(--light-gray);
     padding: 3px 10px;
     border-radius: 20px;
     letter-spacing: 0.05em;
